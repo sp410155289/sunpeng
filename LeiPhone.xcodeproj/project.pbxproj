@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F844718E209FF9B5006CF1E8 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844718D209FF9B5006CF1E8 /* TabBarViewController.swift */; };
+		F8447190209FFA0C006CF1E8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844718F209FFA0C006CF1E8 /* RootViewController.swift */; };
+		F8447193209FFA84006CF1E8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8447192209FFA84006CF1E8 /* HomeViewController.swift */; };
+		F844719520A03393006CF1E8 /* OpenClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844719420A03393006CF1E8 /* OpenClassViewController.swift */; };
+		F844719720A033C4006CF1E8 /* MOOCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844719620A033C4006CF1E8 /* MOOCViewController.swift */; };
+		F844719920A033CE006CF1E8 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844719820A033CD006CF1E8 /* MineViewController.swift */; };
+		F84471A620A05405006CF1E8 /* LPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84471A520A05405006CF1E8 /* LPConnection.swift */; };
+		F87DCF59209AFB4A0005932F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87DCF58209AFB4A0005932F /* AppDelegate.swift */; };
+		F87DCF5B209AFB4A0005932F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87DCF5A209AFB4A0005932F /* ViewController.swift */; };
+		F87DCF5E209AFB4A0005932F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87DCF5C209AFB4A0005932F /* Main.storyboard */; };
+		F87DCF60209AFB4A0005932F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87DCF5F209AFB4A0005932F /* Assets.xcassets */; };
+		F87DCF63209AFB4A0005932F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87DCF61209AFB4A0005932F /* LaunchScreen.storyboard */; };
+		F87DCF6E209AFB4A0005932F /* LeiPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87DCF6D209AFB4A0005932F /* LeiPhoneTests.swift */; };
+		F87DCF79209AFB4A0005932F /* LeiPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87DCF78209AFB4A0005932F /* LeiPhoneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F87DCF6A209AFB4A0005932F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F87DCF4D209AFB4A0005932F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F87DCF54209AFB4A0005932F;
+			remoteInfo = LeiPhone;
+		};
+		F87DCF75209AFB4A0005932F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F87DCF4D209AFB4A0005932F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F87DCF54209AFB4A0005932F;
+			remoteInfo = LeiPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F844718D209FF9B5006CF1E8 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		F844718F209FFA0C006CF1E8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F8447192209FFA84006CF1E8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F844719420A03393006CF1E8 /* OpenClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClassViewController.swift; sourceTree = "<group>"; };
+		F844719620A033C4006CF1E8 /* MOOCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOOCViewController.swift; sourceTree = "<group>"; };
+		F844719820A033CD006CF1E8 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		F84471A520A05405006CF1E8 /* LPConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPConnection.swift; sourceTree = "<group>"; };
+		F87DCF55209AFB4A0005932F /* LeiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeiPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87DCF58209AFB4A0005932F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F87DCF5A209AFB4A0005932F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F87DCF5D209AFB4A0005932F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F87DCF5F209AFB4A0005932F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F87DCF62209AFB4A0005932F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F87DCF64209AFB4A0005932F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87DCF69209AFB4A0005932F /* LeiPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeiPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87DCF6D209AFB4A0005932F /* LeiPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeiPhoneTests.swift; sourceTree = "<group>"; };
+		F87DCF6F209AFB4A0005932F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87DCF74209AFB4A0005932F /* LeiPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeiPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87DCF78209AFB4A0005932F /* LeiPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeiPhoneUITests.swift; sourceTree = "<group>"; };
+		F87DCF7A209AFB4A0005932F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F87DCF52209AFB4A0005932F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87DCF66209AFB4A0005932F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87DCF71209AFB4A0005932F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8447191209FFA20006CF1E8 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F8447192209FFA84006CF1E8 /* HomeViewController.swift */,
+				F844719420A03393006CF1E8 /* OpenClassViewController.swift */,
+				F844719620A033C4006CF1E8 /* MOOCViewController.swift */,
+				F844719820A033CD006CF1E8 /* MineViewController.swift */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		F844719B20A052E3006CF1E8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F844719C20A052FE006CF1E8 /* OpenClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OpenClass;
+			sourceTree = "<group>";
+		};
+		F844719D20A0530C006CF1E8 /* MOOC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MOOC;
+			sourceTree = "<group>";
+		};
+		F844719E20A05315006CF1E8 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F844719F20A05347006CF1E8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		F84471A020A05357006CF1E8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F84471A120A05380006CF1E8 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				F84471A220A053A0006CF1E8 /* Public */,
+				F844719E20A05315006CF1E8 /* Mine */,
+				F844719D20A0530C006CF1E8 /* MOOC */,
+				F844719C20A052FE006CF1E8 /* OpenClass */,
+				F844719B20A052E3006CF1E8 /* Home */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		F84471A220A053A0006CF1E8 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				F84471A420A053E1006CF1E8 /* Connection */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		F84471A420A053E1006CF1E8 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				F84471A520A05405006CF1E8 /* LPConnection.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		F87DCF4C209AFB4A0005932F = {
+			isa = PBXGroup;
+			children = (
+				F87DCF57209AFB4A0005932F /* LeiPhone */,
+				F87DCF6C209AFB4A0005932F /* LeiPhoneTests */,
+				F87DCF77209AFB4A0005932F /* LeiPhoneUITests */,
+				F87DCF56209AFB4A0005932F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F87DCF56209AFB4A0005932F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F87DCF55209AFB4A0005932F /* LeiPhone.app */,
+				F87DCF69209AFB4A0005932F /* LeiPhoneTests.xctest */,
+				F87DCF74209AFB4A0005932F /* LeiPhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F87DCF57209AFB4A0005932F /* LeiPhone */ = {
+			isa = PBXGroup;
+			children = (
+				F87DCF58209AFB4A0005932F /* AppDelegate.swift */,
+				F87DCF5A209AFB4A0005932F /* ViewController.swift */,
+				F844718F209FFA0C006CF1E8 /* RootViewController.swift */,
+				F844718D209FF9B5006CF1E8 /* TabBarViewController.swift */,
+				F84471A120A05380006CF1E8 /* Project */,
+				F84471A020A05357006CF1E8 /* Helper */,
+				F844719F20A05347006CF1E8 /* Library */,
+				F8447191209FFA20006CF1E8 /* MainViewController */,
+				F87DCF5C209AFB4A0005932F /* Main.storyboard */,
+				F87DCF5F209AFB4A0005932F /* Assets.xcassets */,
+				F87DCF61209AFB4A0005932F /* LaunchScreen.storyboard */,
+				F87DCF64209AFB4A0005932F /* Info.plist */,
+			);
+			path = LeiPhone;
+			sourceTree = "<group>";
+		};
+		F87DCF6C209AFB4A0005932F /* LeiPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				F87DCF6D209AFB4A0005932F /* LeiPhoneTests.swift */,
+				F87DCF6F209AFB4A0005932F /* Info.plist */,
+			);
+			path = LeiPhoneTests;
+			sourceTree = "<group>";
+		};
+		F87DCF77209AFB4A0005932F /* LeiPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F87DCF78209AFB4A0005932F /* LeiPhoneUITests.swift */,
+				F87DCF7A209AFB4A0005932F /* Info.plist */,
+			);
+			path = LeiPhoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F87DCF54209AFB4A0005932F /* LeiPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87DCF7D209AFB4A0005932F /* Build configuration list for PBXNativeTarget "LeiPhone" */;
+			buildPhases = (
+				F87DCF51209AFB4A0005932F /* Sources */,
+				F87DCF52209AFB4A0005932F /* Frameworks */,
+				F87DCF53209AFB4A0005932F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeiPhone;
+			productName = LeiPhone;
+			productReference = F87DCF55209AFB4A0005932F /* LeiPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F87DCF68209AFB4A0005932F /* LeiPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87DCF80209AFB4A0005932F /* Build configuration list for PBXNativeTarget "LeiPhoneTests" */;
+			buildPhases = (
+				F87DCF65209AFB4A0005932F /* Sources */,
+				F87DCF66209AFB4A0005932F /* Frameworks */,
+				F87DCF67209AFB4A0005932F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F87DCF6B209AFB4A0005932F /* PBXTargetDependency */,
+			);
+			name = LeiPhoneTests;
+			productName = LeiPhoneTests;
+			productReference = F87DCF69209AFB4A0005932F /* LeiPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F87DCF73209AFB4A0005932F /* LeiPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87DCF83209AFB4A0005932F /* Build configuration list for PBXNativeTarget "LeiPhoneUITests" */;
+			buildPhases = (
+				F87DCF70209AFB4A0005932F /* Sources */,
+				F87DCF71209AFB4A0005932F /* Frameworks */,
+				F87DCF72209AFB4A0005932F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F87DCF76209AFB4A0005932F /* PBXTargetDependency */,
+			);
+			name = LeiPhoneUITests;
+			productName = LeiPhoneUITests;
+			productReference = F87DCF74209AFB4A0005932F /* LeiPhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F87DCF4D209AFB4A0005932F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "孙鹏";
+				TargetAttributes = {
+					F87DCF54209AFB4A0005932F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F87DCF68209AFB4A0005932F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F87DCF54209AFB4A0005932F;
+					};
+					F87DCF73209AFB4A0005932F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F87DCF54209AFB4A0005932F;
+					};
+				};
+			};
+			buildConfigurationList = F87DCF50209AFB4A0005932F /* Build configuration list for PBXProject "LeiPhone" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F87DCF4C209AFB4A0005932F;
+			productRefGroup = F87DCF56209AFB4A0005932F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F87DCF54209AFB4A0005932F /* LeiPhone */,
+				F87DCF68209AFB4A0005932F /* LeiPhoneTests */,
+				F87DCF73209AFB4A0005932F /* LeiPhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F87DCF53209AFB4A0005932F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87DCF63209AFB4A0005932F /* LaunchScreen.storyboard in Resources */,
+				F87DCF60209AFB4A0005932F /* Assets.xcassets in Resources */,
+				F87DCF5E209AFB4A0005932F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87DCF67209AFB4A0005932F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87DCF72209AFB4A0005932F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F87DCF51209AFB4A0005932F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84471A620A05405006CF1E8 /* LPConnection.swift in Sources */,
+				F8447193209FFA84006CF1E8 /* HomeViewController.swift in Sources */,
+				F87DCF5B209AFB4A0005932F /* ViewController.swift in Sources */,
+				F844718E209FF9B5006CF1E8 /* TabBarViewController.swift in Sources */,
+				F844719920A033CE006CF1E8 /* MineViewController.swift in Sources */,
+				F844719720A033C4006CF1E8 /* MOOCViewController.swift in Sources */,
+				F8447190209FFA0C006CF1E8 /* RootViewController.swift in Sources */,
+				F87DCF59209AFB4A0005932F /* AppDelegate.swift in Sources */,
+				F844719520A03393006CF1E8 /* OpenClassViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87DCF65209AFB4A0005932F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87DCF6E209AFB4A0005932F /* LeiPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87DCF70209AFB4A0005932F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87DCF79209AFB4A0005932F /* LeiPhoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F87DCF6B209AFB4A0005932F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F87DCF54209AFB4A0005932F /* LeiPhone */;
+			targetProxy = F87DCF6A209AFB4A0005932F /* PBXContainerItemProxy */;
+		};
+		F87DCF76209AFB4A0005932F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F87DCF54209AFB4A0005932F /* LeiPhone */;
+			targetProxy = F87DCF75209AFB4A0005932F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F87DCF5C209AFB4A0005932F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F87DCF5D209AFB4A0005932F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F87DCF61209AFB4A0005932F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F87DCF62209AFB4A0005932F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F87DCF7B209AFB4A0005932F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F87DCF7C209AFB4A0005932F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F87DCF7E209AFB4A0005932F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAXSX3XGJ9;
+				INFOPLIST_FILE = LeiPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leiphone.swift.LeiPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F87DCF7F209AFB4A0005932F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAXSX3XGJ9;
+				INFOPLIST_FILE = LeiPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leiphone.swift.LeiPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F87DCF81209AFB4A0005932F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAXSX3XGJ9;
+				INFOPLIST_FILE = LeiPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leiphone.swift.LeiPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeiPhone.app/LeiPhone";
+			};
+			name = Debug;
+		};
+		F87DCF82209AFB4A0005932F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAXSX3XGJ9;
+				INFOPLIST_FILE = LeiPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leiphone.swift.LeiPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeiPhone.app/LeiPhone";
+			};
+			name = Release;
+		};
+		F87DCF84209AFB4A0005932F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAXSX3XGJ9;
+				INFOPLIST_FILE = LeiPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leiphone.swift.LeiPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeiPhone;
+			};
+			name = Debug;
+		};
+		F87DCF85209AFB4A0005932F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAXSX3XGJ9;
+				INFOPLIST_FILE = LeiPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leiphone.swift.LeiPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeiPhone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F87DCF50209AFB4A0005932F /* Build configuration list for PBXProject "LeiPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87DCF7B209AFB4A0005932F /* Debug */,
+				F87DCF7C209AFB4A0005932F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87DCF7D209AFB4A0005932F /* Build configuration list for PBXNativeTarget "LeiPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87DCF7E209AFB4A0005932F /* Debug */,
+				F87DCF7F209AFB4A0005932F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87DCF80209AFB4A0005932F /* Build configuration list for PBXNativeTarget "LeiPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87DCF81209AFB4A0005932F /* Debug */,
+				F87DCF82209AFB4A0005932F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87DCF83209AFB4A0005932F /* Build configuration list for PBXNativeTarget "LeiPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87DCF84209AFB4A0005932F /* Debug */,
+				F87DCF85209AFB4A0005932F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F87DCF4D209AFB4A0005932F /* Project object */;
+}
