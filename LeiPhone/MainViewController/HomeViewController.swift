@@ -22,7 +22,7 @@ class HomeViewController: RootViewController {
         }
         print(array)
 
-        searchNumber(<#T##n: Int##Int#>)
+//        searchNumber(<#T##n: Int##Int#>)
     }
 
     override func didReceiveMemoryWarning() {
