@@ -99,56 +99,10 @@
 			path = MainViewController;
 			sourceTree = "<group>";
 		};
-		F844719B20A052E3006CF1E8 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		F844719C20A052FE006CF1E8 /* OpenClass */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = OpenClass;
-			sourceTree = "<group>";
-		};
-		F844719D20A0530C006CF1E8 /* MOOC */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MOOC;
-			sourceTree = "<group>";
-		};
-		F844719E20A05315006CF1E8 /* Mine */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mine;
-			sourceTree = "<group>";
-		};
-		F844719F20A05347006CF1E8 /* Library */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Library;
-			sourceTree = "<group>";
-		};
-		F84471A020A05357006CF1E8 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
 		F84471A120A05380006CF1E8 /* Project */ = {
 			isa = PBXGroup;
 			children = (
 				F84471A220A053A0006CF1E8 /* Public */,
-				F844719E20A05315006CF1E8 /* Mine */,
-				F844719D20A0530C006CF1E8 /* MOOC */,
-				F844719C20A052FE006CF1E8 /* OpenClass */,
-				F844719B20A052E3006CF1E8 /* Home */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -197,8 +151,6 @@
 				F844718F209FFA0C006CF1E8 /* RootViewController.swift */,
 				F844718D209FF9B5006CF1E8 /* TabBarViewController.swift */,
 				F84471A120A05380006CF1E8 /* Project */,
-				F84471A020A05357006CF1E8 /* Helper */,
-				F844719F20A05347006CF1E8 /* Library */,
 				F8447191209FFA20006CF1E8 /* MainViewController */,
 				F87DCF5C209AFB4A0005932F /* Main.storyboard */,
 				F87DCF5F209AFB4A0005932F /* Assets.xcassets */,
